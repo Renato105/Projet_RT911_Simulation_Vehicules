@@ -1,0 +1,26 @@
+Test Purpose (objectif de test)
+Pour passer du test exhaustif vers un test réaliste
+--> critères pour sélectionner les tests qui permettent de respecter ces objectifs.
+Exemple: Est ce que les véhicules adaptent leurs vitesses à l'environnement .
+n un 
+Architecture de test adaptée à ce système distribué etdynamique 
+1) Observateur : Relever pendant une durée si l'objectif est respecté( rouler à maximum 3 blocs considérés comme 50 Km/h
+2) Agir - Actuateurs : Agir sur un acteur pour le pousser à faire des choses spécifiques:
+Proposer un Upper - Tester dont le but est de changer la vitesse d'un véhicule
+On a une file un upper tester speed , si un véhicule se rapproche d' un autre moins rapide par exemple on peut pousser celle qui est lente à accélérer
+
+Après le testeur doit être une autorité certifiée c-a-d avoir un identifiant spécial et être authentifié pour pouvoir envoyer des ordres à une voiture pouraccélerer ou ralentir
+
+----------------------------------------------------------------------
+Date: 04/04/2024
+A faire: Ajout d'API sous forme de bouts de code appelé UPPER_TESTER sur un port bien défini 
+Ensemble de requêtes 
+Le prof envoie la requête get_time()
+Et on lui envoie un SENDTIME(x) qui envoie l'horloge de notre machine
+le prof envoie une 2nde requête get_pos() pour demander la position et on lui envoie notre position avec la fonction SENDPOS (X,Y1)
+
+Deadline pour envoyer le rapport du projet : Mardi 14 Mai 2024 à 18h
+
+Dans le rapport on doit reserver 2 pages pour expliquer la philosophie du projet .
+On met aussi dans le rapport le résultat de l'execution des différentes tâches demandées telles que la publication des vehicules dans le topic "vehicle" etc.
+Il faut expliquer aussi la partie Uppertester et comment on l'a implémenter.
